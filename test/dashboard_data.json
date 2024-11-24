@@ -1,0 +1,84 @@
+{
+    "Logistic Regression": null,
+    "KNN": null,
+    "SVM": null,
+    "load_and_clean_data": {
+        "status": "completed"
+    },
+    "explore_data": {
+        "status": "completed"
+    },
+    "preprocess_data": {
+        "status": "completed"
+    },
+    "split_data": {
+        "X_train_shape": [
+            820,
+            9
+        ],
+        "X_test_shape": [
+            205,
+            9
+        ],
+        "Y_train_shape": [
+            820,
+            1
+        ],
+        "Y_test_shape": [
+            205,
+            1
+        ]
+    },
+    "train_models": {
+        "status": "completed"
+    },
+    "evaluate_model_Logistic Regression": {
+        "confusion_matrix": [
+            [
+                90,
+                15
+            ],
+            [
+                14,
+                86
+            ]
+        ],
+        "accuracy": 0.8585365853658536,
+        "recall": 0.86,
+        "precision": 0.8514851485148515
+    },
+    "evaluate_model_KNN": {
+        "confusion_matrix": [
+            [
+                99,
+                6
+            ],
+            [
+                0,
+                100
+            ]
+        ],
+        "accuracy": 0.9707317073170731,
+        "recall": 1.0,
+        "precision": 0.9433962264150944
+    },
+    "evaluate_model_SVM": {
+        "confusion_matrix": [
+            [
+                82,
+                23
+            ],
+            [
+                55,
+                45
+            ]
+        ],
+        "accuracy": 0.6195121951219512,
+        "recall": 0.45,
+        "precision": 0.6617647058823529
+    },
+    "save_model": {
+        "filename": "KNN_model.pkl",
+        "status": "completed"
+    }
+}
