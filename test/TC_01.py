@@ -83,6 +83,7 @@ def iMachineModelTrainer(driver, data_path):
 
         # Save model
         ml.save_model(knn_model, "KNN_model.pkl")
+
         logging.info("Model training and evaluation completed successfully.")
     except Exception as e:
         logging.error(f"Error during model training and evaluation: {e}")
