@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b22f133-3798-4e84-b4d9-e67181375f98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/dashboard_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/dashboard_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Module_Execution_ML.py" afterDir="false" />
+    <list default="true" id="3b22f133-3798-4e84-b4d9-e67181375f98" name="Changes" comment="Machine Learning_CA1 with dashboard">
+      <change afterPath="$PROJECT_DIR$/dashboard/Prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Module_Execution_ML.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Module_Execution_ML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TC_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TC_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in TC_01.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kraggle_Repo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MachineLearning_Execution_Control_Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dashboard_app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in TC_01.py.executor": "Run",
+    "Python.Kraggle_Repo.executor": "Run",
+    "Python.MachineLearning_Execution_Control_Runner.executor": "Run",
+    "Python.Prediction.executor": "Run",
+    "Python.dashboard_app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anike\PycharmProjects\MachineLearning_CA1\Tests" />
@@ -122,16 +124,55 @@
       <workItem from="1732438532776" duration="3112000" />
       <workItem from="1732442266668" duration="2692000" />
       <workItem from="1732445122960" duration="17149000" />
-      <workItem from="1732469073962" duration="3726000" />
+      <workItem from="1732469073962" duration="4093000" />
+      <workItem from="1732639169005" duration="9000" />
+      <workItem from="1732639198773" duration="31000" />
+      <workItem from="1732643718964" duration="17000" />
+      <workItem from="1732643990607" duration="453000" />
+      <workItem from="1732645525769" duration="55000" />
+      <workItem from="1732695659724" duration="227000" />
+      <workItem from="1732892866034" duration="2660000" />
+      <workItem from="1732972154543" duration="4000" />
+      <workItem from="1732989003349" duration="8000" />
+      <workItem from="1733014903335" duration="126000" />
+      <workItem from="1733016090847" duration="52000" />
+      <workItem from="1733052724298" duration="621000" />
+      <workItem from="1733057970023" duration="4530000" />
+      <workItem from="1733139631000" duration="211000" />
+      <workItem from="1733171398777" duration="51000" />
+      <workItem from="1733224211142" duration="627000" />
+      <workItem from="1733396042682" duration="11437000" />
     </task>
+    <task id="LOCAL-00001" summary="Machine Learning_CA1 with dashboard">
+      <option name="closed" value="true" />
+      <created>1732473124624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732473124624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Machine Learning_CA1 with dashboard">
+      <option name="closed" value="true" />
+      <created>1733062911783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733062911783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Machine Learning_CA1 with dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Machine Learning_CA1 with dashboard" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MachineLearning_CA1$.coverage" NAME=" Coverage Results" MODIFIED="1732472459473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/MachineLearning_CA1$dashboard_app.coverage" NAME="dashboard_app Coverage Results" MODIFIED="1732472844907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dashboard" />
+    <SUITE FILE_PATH="coverage/MachineLearning_CA1$.coverage" NAME=" Coverage Results" MODIFIED="1733407056234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/MachineLearning_CA1$dashboard_app.coverage" NAME="dashboard_app Coverage Results" MODIFIED="1733402744388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dashboard" />
+    <SUITE FILE_PATH="coverage/MachineLearning_CA1$Prediction.coverage" NAME="Prediction Coverage Results" MODIFIED="1733399241054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dashboard" />
     <SUITE FILE_PATH="coverage/MachineLearning_CA1$Kraggle_Repo.coverage" NAME="Kraggle_Repo Coverage Results" MODIFIED="1732446913719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
     <SUITE FILE_PATH="coverage/MachineLearning_CA1$MachineLearning_Execution_Control_Runner.coverage" NAME="MachineLearning_Execution_Control_Runner Coverage Results" MODIFIED="1732398411938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

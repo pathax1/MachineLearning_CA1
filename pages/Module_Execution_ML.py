@@ -145,6 +145,13 @@ class HeartDiseaseML:
         print(f"Model saved as {filename}!")
         self.log_to_json("save_model", {"filename": filename, "status": "completed"})
 
+    def generatePredictionDataSet(self):
+        merged_test = pd.concat([self.X_test, self.Y_test], axis=1)
+        test_dataset = "test_dataset.csv"
+        merged_test.to_csv(test_dataset, index=False)
+        print(f"CSV file '{test_dataset}' created successfully!")
+
+
 # Usage
 data_path = r"C:\Users\anike\PycharmProjects\MachineLearning_CA1\test\heart-disease-dataset\heart.csv"
 
